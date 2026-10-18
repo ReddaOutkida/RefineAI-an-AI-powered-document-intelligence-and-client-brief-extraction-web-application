@@ -1,4 +1,4 @@
-# RefineAI 📄✨
+# RefineAI 
 ### AI-Powered Document Intelligence & Client Brief Extraction Web Application
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 **RefineAI** is an intelligent full-stack web application designed to bridge the gap between unstructured client input and engineering execution. Whether dealing with messy project briefs, scanned technical documents, RFPs, or design requests, RefineAI parses, extracts, cleans, and structures raw files into clear, actionable development blueprints in seconds.
 
@@ -19,7 +19,7 @@ Powered by **Google Gemini 2.0 Flash** and OCR-backed multi-format ingestion, Re
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### 1. Document Upload & Interactive Analysis
 ![RefineAI Hero & Upload](docs/screenshots/hero_preview.png)
@@ -31,34 +31,34 @@ Powered by **Google Gemini 2.0 Flash** and OCR-backed multi-format ingestion, Re
 
 ---
 
-## ⚡ Core Features
+## Core Features
 
-- 📑 **Multi-Format Document Parsing**:
+- **Multi-Format Document Parsing**:
   - **PDF Documents**: Direct text extraction using `pdfplumber` with an automatic page-by-page OCR fallback for scanned/photo PDFs.
   - **Word Documents (`.docx`)**: Structured paragraph extraction via `python-docx`.
   - **Images (`.png`, `.jpg`, `.jpeg`)**: High-accuracy optical character recognition (OCR) via `Tesseract OCR` and `Pillow`.
   - **Plain Text / Code**: Native fallback UTF-8 reader.
-- 🧠 **Google Gemini 2.0 Flash Extraction Pipeline**:
+- **Google Gemini 2.0 Flash Extraction Pipeline**:
   - Automatically synthesizes concise executive summaries.
   - Generates a standalone headline title for easy indexing.
   - Detects document classification and primary language.
   - Extracts client intent, feature goals, and requirements.
   - Formulates recommended tech stacks suited for the project scope.
   - Provides realistic development time estimates.
-- 🔒 **Secure User Authentication**:
+- **Secure User Authentication**:
   - JSON Web Token (JWT) Bearer authentication with bcrypt password hashing.
   - User-specific document isolation in MongoDB.
-- 📂 **Personal Document Management ("MyDocs")**:
+- **Personal Document Management ("MyDocs")**:
   - Two-stage save workflow (inspect before saving to account).
   - Quick download or in-browser preview of original uploaded files.
   - One-click document removal and disk cleanup.
-- 🎨 **Modern & Responsive UI**:
+- **Modern & Responsive UI**:
   - Built with Next.js 15 (App Router), React 19, and modern CSS gradients.
   - Reactive auth state updates across routes.
 
 ---
 
-## 🏗️ Architecture & Data Flow
+## Architecture & Data Flow
 
 ```
 [User Browser / Next.js Frontend]
@@ -87,7 +87,7 @@ Powered by **Google Gemini 2.0 Flash** and OCR-backed multi-format ingestion, Re
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
@@ -108,7 +108,7 @@ Powered by **Google Gemini 2.0 Flash** and OCR-backed multi-format ingestion, Re
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -197,7 +197,7 @@ cd RefineAI-an-AI-powered-document-intelligence-and-client-brief-extraction-web-
 
 ---
 
-## 🔐 Environment Variables Reference
+## Environment Variables Reference
 
 | Variable | Description | Default |
 |---|---|---|
@@ -212,7 +212,7 @@ cd RefineAI-an-AI-powered-document-intelligence-and-client-brief-extraction-web-
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### Authentication
 - `POST /auth/signup` – Register a new user account with hashed password.
@@ -227,7 +227,7 @@ cd RefineAI-an-AI-powered-document-intelligence-and-client-brief-extraction-web-
 
 ---
 
-## 🛡️ Security Hardening
+## Security Hardening
 
 This repository includes important security practices:
 - **No Hardcoded Secrets**: All API keys, database connection strings, and JWT secret keys are loaded strictly from environment variables.
@@ -236,7 +236,7 @@ This repository includes important security practices:
 
 ---
 
-## 👨‍💻 Credits & Author
+## Credits & Author
 
 - **Created by**: **Redda Outkida**
 - **Internship Project at**: **Acrative** – *"Crafting Digital Futures"*
