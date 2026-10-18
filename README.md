@@ -23,6 +23,7 @@ Powered by **Google Gemini 2.0 Flash** and OCR-backed multi-format ingestion, Re
 
 ### 1. Document Upload & Interactive Analysis
 ![RefineAI Hero & Upload](docs/screenshots/hero_preview.png)
+
 *Upload PDFs, Word documents, or images and generate immediate structured intelligence.*
 
 ### 2. "MyDocs" Document Workspace & Archive
