@@ -1,0 +1,13 @@
+fastapi
+motor
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic
+python-multipart
+uvicorn
+pytesseract
+pillow
+pdfplumber
+python-docx
+requests
+python-dotenv

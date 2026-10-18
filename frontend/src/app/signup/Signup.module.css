@@ -1,0 +1,103 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #3b82f6 0%, #a21caf 60%, #ec4899 100%);
+  padding: 2rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #22223b;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.95);
+  color: #22223b;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.input:focus {
+  border: 1.5px solid #6366f1;
+  box-shadow: 0 0 0 2px #a5b4fc44;
+}
+
+.button {
+  width: 100%;
+  padding: 0.9rem 0;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, #2563eb 0%, #a21caf 60%, #ec4899 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.10);
+  transition: background 0.2s, opacity 0.2s;
+}
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.button:hover:not(:disabled) {
+  background: linear-gradient(90deg, #1d4ed8 0%, #7c3aed 60%, #db2777 100%);
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.97rem;
+  font-weight: 500;
+  text-align: center;
+}
+.success {
+  color: #059669;
+  font-size: 0.97rem;
+  font-weight: 500;
+  text-align: center;
+}
+.footerText {
+  font-size: 0.97rem;
+  color: #555;
+  text-align: center;
+}
+.loginLink {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 0.2em;
+  transition: color 0.2s;
+}
+.loginLink:hover {
+  color: #a21caf;
+  text-decoration: underline;
+} 
