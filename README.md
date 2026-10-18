@@ -28,6 +28,7 @@ Powered by **Google Gemini 2.0 Flash** and OCR-backed multi-format ingestion, Re
 
 ### 2. "MyDocs" Document Workspace & Archive
 ![RefineAI MyDocs](docs/screenshots/mydocs_preview.png)
+
 *Review saved analyses, inspect categorized tags, view actionable insights, examine time estimates, and preview original files.*
 
 ---
